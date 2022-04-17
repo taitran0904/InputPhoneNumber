@@ -32,8 +32,8 @@ export default function App() {
         }}>
         <Text
           style={{fontSize: 20, backgroundColor: 'red', textAlign: 'center'}}>
-          0{phoneNumber.slice(0, 2)} {phoneNumber.slice(3, 5)}{' '}
-          {phoneNumber.slice(6, 8)}
+          0{phoneNumber.slice(0, 3)} {phoneNumber.slice(3, 6)}{' '}
+          {phoneNumber.slice(6, 9)}
         </Text>
       </TouchableOpacity>
       <NumberInput
